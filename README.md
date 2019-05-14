@@ -7,8 +7,8 @@ ASP.NET debugging, tips and tricks
 * Run app in debug mode
 * Attach to app process
 * Breakpoints
-* Breakpoints actions - trace break points
-* Breakpoints conditions  
+* Breakpoint actions - trace breakpoints
+* Breakpoint conditions  
 * Step in the code 
     * Set to next statement - forward, backward
 * Tools
@@ -21,12 +21,6 @@ ASP.NET debugging, tips and tricks
 * Pin variables 
 * DebugerDisplayAttribute
 * Visualizers 
-
-## Tips
-
-* Set proper language version
-* Attach to more than one process
-* Always include .pdb files
 
 ## Production time debugging
 
@@ -49,3 +43,9 @@ Production runtime app crashes
 
 * Windows Reporting Tool crash dumps
 * Analyze and time travel debugging in Visual Studio
+
+## Tips
+
+* Set proper language version
+* Attach to more than one process
+* Always include .pdb files
