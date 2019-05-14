@@ -1,6 +1,6 @@
 # Traning - Debugging in .NET
 
-ASP.NET debugging, tips and tricks
+ASP.NET debug tips and tricks.
 
 ## Development time debugging
 
