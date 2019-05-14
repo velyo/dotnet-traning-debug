@@ -1,2 +1,51 @@
-# lesson-dotnet-debug
-C# .Net debug lesson
+# Traning - Debugging in .NET
+
+ASP.NET debugging, tips and tricks
+
+## Development time debugging
+
+* Run app in debug mode
+* Attach to app process
+* Breakpoints
+* Breakpoints actions - trace break points
+* Breakpoints conditions  
+* Step in the code 
+    * Set to next statement - forward, backward
+* Tools
+    * Output window - always keep an eye on it
+    * Breakpoints window
+    * Call Stack window
+    * Autos window
+    * Immediate window
+    * Exceptions settings
+* Pin variables 
+* DebugerDisplayAttribute
+* Visualizers 
+
+## Tips
+
+* Set proper language version
+* Attach to more than one process
+* Always include .pdb files
+
+## Production time debugging
+
+### Remote debugging
+
+Tools for Visual Studio 2019  
+https://visualstudio.microsoft.com/downloads/
+
+### Time Travel Debugging 
+
+Debug diagnostic tool to create Snapshots.  
+https://www.microsoft.com/en-us/download/details.aspx?id=49924
+
+* Create rule
+* Activate rule and collect dumps
+* Analyze dumps with DebugDiag Analysis
+* Analize and time travel debugging in Visual Studio
+
+Production runtime app crashes
+
+* Windows Reporting Tool crash dumps
+* Analyze and time travel debugging in Visual Studio
