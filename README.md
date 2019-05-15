@@ -2,10 +2,11 @@
 
 ASP.NET debug tips and tricks.
 
-## Development time debugging
+## Development debugging
 
 * Run app in debug mode
 * Attach to app process
+    * IIS requires admin privileges 
 * Breakpoints
 * Breakpoint actions - trace breakpoints
 * Breakpoint conditions  
@@ -15,6 +16,7 @@ ASP.NET debug tips and tricks.
     * Output window - always keep an eye on it
     * Breakpoints window
     * Call Stack window
+    * Locals window
     * Autos window
     * Immediate window
     * Exceptions settings
@@ -22,7 +24,14 @@ ASP.NET debug tips and tricks.
 * DebugerDisplayAttribute
 * Visualizers 
 
-## Production time debugging
+## Complex environment setup and debugging
+
+Application is integrated in bigger product or has external dependencies.  
+Walk through the setup and debugging sample.
+
+* Using of hosts file
+
+## Production debugging
 
 ### Remote debugging
 
@@ -37,7 +46,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49924
 * Create rule
 * Activate rule and collect dumps
 * Analyze dumps with DebugDiag Analysis
-* Analize and time travel debugging in Visual Studio
+* Analyze and time travel debugging in Visual Studio
 
 Production runtime app crashes
 
